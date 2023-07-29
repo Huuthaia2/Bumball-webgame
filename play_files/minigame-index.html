@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<!-- saved from url=(0159)https://bouboules.apps.minigame.vip/minigame-index.html?mn_config=https://indigo.minigame.vip/v1/api/channel/indigo/main/game/bouboules/config&ts=1690606246278 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Boubloules2</title>
+    <!--<link rel="icon" type="image/GIF" href="res/favicon.ico"/>-->
+
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1">
+
+    <!--https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- force webkit on 360 -->
+    <meta name="renderer" content="webkit">
+    <meta name="force-rendering" content="webkit">
+    <!-- force edge on IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- force full screen on some browser -->
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="360-fullscreen" content="true">
+
+    <!-- force screen orientation on some browser -->
+    <!-- <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-orientation" content="portrait"> -->
+
+    <meta name="browsermode" content="application">
+    <meta name="x5-page-mode" content="app">
+
+    <style type="text/css">
+        html {
+            -ms-touch-action: none;
+        }
+
+        body, canvas, div {
+            margin: 0;
+            padding: 0;
+            outline: none;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            -khtml-user-select: none;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+
+        body {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            border: 0;
+            margin: 0;
+
+            cursor: default;
+            color: #888;
+            background-color: #333;
+
+            text-align: center;
+            font-family: Helvetica, Verdana, Arial, sans-serif;
+
+            display: flex;
+            flex-direction: column;
+        }
+
+        #Cocos2dGameContainer {
+            position: absolute;
+            margin: 0;
+            overflow: hidden;
+            left: 0px;
+            top: 0px;
+
+            display: -webkit-box;
+            -webkit-box-orient: horizontal;
+            -webkit-box-align: center;
+            -webkit-box-pack: center;
+        }
+
+        canvas {
+            background-color: rgba(0, 0, 0, 0);
+        }
+    </style>
+<script type="text/javascript" async="" src="./analytics.js.tải xuống"></script><script type="text/javascript" async="" src="./js(1)"></script><script>
+
+
+   var sdkName = "FaceBook";
+    var gameServerVersion = "20200912_v1";
+
+    //进入游戏前报错
+    var beforeEnterGame = "beforeEnterGame";
+    //进入游戏后报错
+    var afterEnterGame = "afterEnterGame";
+    var serverUrl = "";
+    switch (sdkName){
+        case 'FaceBookTest':
+            serverUrl = "https://pandatest.9191youxi.com:8080/jeli2_test/";
+            //serverUrl = "https://jeli2.9191youxi.com:8080/jeli2/";
+            break;
+        case 'FaceBook':
+            serverUrl = "https://candy.9191youxi.com:8080/bearboom/";
+            //serverUrl = "https://pandatest.9191youxi.com:8080/jeli2_test/";
+            break;
+    }
+
+    // 自动加载进度 玩家自增长 显示加载进度
+    var loadProgress = 1;
+    // 真实加载进度
+    var loadRealProgress = 0;
+    // 加载完成
+    var isLoadComplete = false;
+    // 是否FB初始化
+    var isInitializeAsync = false;
+    // fb玩家唯一编号
+    var facebookPlayerid = null;
+    // 心跳进度条唯一编号
+    var updateProgress = null;
+
+    var newUserData = null
+</script><script>
+
+    var upateLoadProgress = function()
+    {
+        if(loadProgress < loadRealProgress)
+        {
+            loadProgress = loadRealProgress;
+        }
+        else
+        {
+            if(loadProgress < 26)
+            {
+                loadProgress = loadProgress + 1;
+            }
+            else if(loadProgress < 27)
+            {
+                loadProgress = loadProgress + 0.05;
+            }
+            else if(loadProgress < 40)
+            {
+                loadProgress = loadProgress + 0.25;
+            }
+            else if(loadProgress < 41)
+            {
+                loadProgress = loadProgress + 0.05;
+            }
+            else if(loadProgress < 50)
+            {
+                loadProgress = loadProgress + 0.15;
+            }
+            else
+            {
+                isLoadComplete = true;
+            }
+        }
+
+        var displayProgress = Math.ceil(loadProgress);
+        if(displayProgress > 99)
+        {
+            displayProgress = 99;
+        }
+        FBInstant.setLoadingProgress(displayProgress);
+    }
+
+    var loadJs = function(url, cb)
+    {
+        var script = document.createElement("script");
+        script.async = false;
+        script.src = url;
+        document.body.appendChild(script);
+        if(cb != null)
+        {
+            script.onload = cb;
+        }
+    }
+
+    function bodyLoadComplete()
+    {
+        if(sdkName == "FaceBook")
+        {
+            loadJs("https://sdk.minigame.vip/js/1.1/minigame.js",
+                    function(){
+                        console.log("获取用户登录信息，调用FBInstant.initializeAsync方法");
+                        // 获取用户登录信息
+                        FBInstant.initializeAsync()
+                                .then(function() {
+                                    FBInstant.player.getDataAsync(["dataBoubouleshhc"])
+                                        .then(function(data)
+                                            {
+                                                console.log("取到FB的数据:");
+                                                console.log(data);
+                                                var i = 0;
+                                                for(var key in data)
+                                                {
+                                                    if(data[key] != null)
+                                                    {
+                                                        i++;
+                                                    }
+                                                }
+                                                if(data["dataBoubouleshhc"] == null)
+                                                {
+
+                                                }
+                                                else
+                                                {
+                                                    newUserData = data;
+                                                }
+
+
+                                                facebookPlayerid = FBInstant.player.getID();
+                                                FBInstant.logEvent('initializeAsync_facebookPlayerid',1 ,{initializeAsync_facebookPlayerid: 'initializeAsync_facebookPlayerid'});
+                                                console.log("拉取到用户登录信息，FBInstant.initializeAsync回调。玩家 playerid=",facebookPlayerid);
+                                                // 让进度条变成1%
+                                                upateLoadProgress();
+                                                loadJs("game.min.js", null);
+                                            }
+                                        )
+
+                                    // 判断 setInterval 方法是否存在
+                                    // if(typeof setInterval != "undefined")
+                                    // {
+                                    //     updateProgress = setInterval(
+                                    //             function()
+                                    //             {
+                                    //                 if(isLoadComplete == true)
+                                    //                 {
+                                    //                     if(updateProgress != null)
+                                    //                     {
+                                    //                         console.log("移除",facebookPlayerid);
+                                    //                         clearInterval(updateProgress);
+                                    //                         updateProgress = null;
+                                    //                     }
+                                    //                     return;
+                                    //                 }
+                                    //
+                                    //                 if(isLoadComplete == false)
+                                    //                 {
+                                    //                     upateLoadProgress();
+                                    //                 }
+                                    //             }, 100);
+                                    // }
+                                    // else{
+                                    //     FBInstant.logEvent('setInterval_null',1 ,{setInterval_null: 'setInterval_null'});
+                                    // }
+                                });
+                    }
+            );
+        }
+        if(sdkName == "FaceBookTest"){
+            loadJs("game.min.js");
+        }
+    }
+</script><script src="./minigame-sdk.js.tải xuống"></script><script src="./js(2)" async=""></script><style>.cocosVideo:-moz-full-screen{transform:matrix(1,0,0,1,0,0) !important;}.cocosVideo:full-screen{transform:matrix(1,0,0,1,0,0) !important;}.cocosVideo:-webkit-full-screen{transform:matrix(1,0,0,1,0,0) !important;}</style></head>
+
+
+<body style="padding: 0px; border-width: 0px; border-style: initial; border-color: initial; margin: 0px;">
+<div id="Cocos2dGameContainer" style="width: 470px; height: 899px; margin: 0px auto; position: relative; overflow: hidden;"><canvas id="gameCanvas" width="470" height="899" class="gameCanvas" tabindex="99" style="outline: none; width: 470px; height: 899px;"></canvas></div>
+<script>
+    var clientCanvas = setInterval(function () {
+        if(document.documentElement.clientHeight != 0)
+        {
+            bodyLoadComplete();
+            if(clientCanvas != null)
+            {
+                console.log("移除clientCanvas");
+                clearInterval(clientCanvas);
+            }
+        }
+
+    },100)
+
+</script>
+
+
+
+<script src="./minigame.js.tải xuống"></script><script src="./game.min.js.tải xuống"></script><div style="font-family: Arial; position: absolute; left: -100px; top: -100px; line-height: normal; font-size: 20px;"></div><input type="text" id="imeDispatcherInput" tabindex="2" style="transform: translate3d(0px, 0px, 0px) rotateZ(0deg) scale(0, 0) skewX(0deg) skewY(0deg); opacity: 0; font-size: 1px; position: absolute; top: 0px; left: 0px;"></body></html>
