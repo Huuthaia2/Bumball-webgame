@@ -1,0 +1,649 @@
+{
+  "ID": "afac4e5b-a240-45d1-ac7d-61702496b6cf",
+  "Version": "3.10.0.0",
+  "Name": "shop",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 18,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "sdk/shop_bg.png",
+              "Plist": "sdk/sdk.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -301.5,
+            "RightMargin": -301.5,
+            "TopMargin": -444.0,
+            "BottomMargin": -444.0,
+            "Tag": 19,
+            "ActionTag": -1856060350,
+            "Size": {
+              "X": 603.0,
+              "Y": 888.0
+            },
+            "Name": "shop_bg_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "pngdata/biglevellayer/png13.png",
+              "Plist": "pngdata/biglevellayer/biglevellayerplist.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -0.6523,
+              "Y": -443.7935
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -58.1523,
+            "RightMargin": -56.8477,
+            "TopMargin": 386.2935,
+            "BottomMargin": -501.2935,
+            "Tag": 73,
+            "ActionTag": 966566086,
+            "Size": {
+              "X": 115.0,
+              "Y": 115.0
+            },
+            "Name": "btnClose",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "sdk/gren_btn.png",
+              "Plist": "sdk/sdk.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 142.0,
+              "Y": 255.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 63.0,
+            "RightMargin": -221.0,
+            "TopMargin": -301.0,
+            "BottomMargin": 209.0,
+            "Tag": 1,
+            "Children": [
+              {
+                "LabelText": "12,3",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "font/sdk_pay_money.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 79.0,
+                  "Y": 46.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.4937,
+                  "Y": 0.3478
+                },
+                "LeftMargin": 40.0,
+                "RightMargin": 40.0,
+                "TopMargin": 30.0,
+                "BottomMargin": 30.0,
+                "Tag": 75,
+                "ActionTag": 448915013,
+                "Size": {
+                  "X": 78.0,
+                  "Y": 32.0
+                },
+                "Name": "text",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": 29742968,
+            "Size": {
+              "X": 158.0,
+              "Y": 92.0
+            },
+            "Name": "btn1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "sdk/gren_btn.png",
+              "Plist": "sdk/sdk.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 142.0,
+              "Y": 79.6272
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 63.0,
+            "RightMargin": -221.0,
+            "TopMargin": -125.6272,
+            "BottomMargin": 33.6272,
+            "Tag": 2,
+            "Children": [
+              {
+                "LabelText": "12,3",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "font/sdk_pay_money.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 79.0,
+                  "Y": 46.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.4937,
+                  "Y": 0.3478
+                },
+                "LeftMargin": 40.0,
+                "RightMargin": 40.0,
+                "TopMargin": 30.0,
+                "BottomMargin": 30.0,
+                "Tag": 77,
+                "ActionTag": 1297142809,
+                "Size": {
+                  "X": 78.0,
+                  "Y": 32.0
+                },
+                "Name": "text",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": -1631934095,
+            "Size": {
+              "X": 158.0,
+              "Y": 92.0
+            },
+            "Name": "btn2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "sdk/gren_btn.png",
+              "Plist": "sdk/sdk.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 142.0,
+              "Y": -98.0708
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 63.0,
+            "RightMargin": -221.0,
+            "TopMargin": 52.0708,
+            "BottomMargin": -144.0708,
+            "Tag": 3,
+            "Children": [
+              {
+                "LabelText": "12,3",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "font/sdk_pay_money.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 79.0,
+                  "Y": 46.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.4937,
+                  "Y": 0.3478
+                },
+                "LeftMargin": 40.0,
+                "RightMargin": 40.0,
+                "TopMargin": 30.0,
+                "BottomMargin": 30.0,
+                "Tag": 81,
+                "ActionTag": 818046808,
+                "Size": {
+                  "X": 78.0,
+                  "Y": 32.0
+                },
+                "Name": "text",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": 1796378776,
+            "Size": {
+              "X": 158.0,
+              "Y": 92.0
+            },
+            "Name": "btn3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "sdk/gren_btn.png",
+              "Plist": "sdk/sdk.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 142.0,
+              "Y": -277.5322
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 63.0,
+            "RightMargin": -221.0,
+            "TopMargin": 231.5322,
+            "BottomMargin": -323.5322,
+            "Tag": 4,
+            "Children": [
+              {
+                "LabelText": "12,3",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "font/sdk_pay_money.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 79.0,
+                  "Y": 46.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.4937,
+                  "Y": 0.3478
+                },
+                "LeftMargin": 40.0,
+                "RightMargin": 40.0,
+                "TopMargin": 30.0,
+                "BottomMargin": 30.0,
+                "Tag": 83,
+                "ActionTag": -1345686163,
+                "Size": {
+                  "X": 78.0,
+                  "Y": 32.0
+                },
+                "Name": "text",
+                "ctype": "TextBMFontObjectData"
+              }
+            ],
+            "ActionTag": 1240554590,
+            "Size": {
+              "X": 158.0,
+              "Y": 92.0
+            },
+            "Name": "btn4",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "LabelText": "x999",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "font/sdk_money.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -117.6475,
+              "Y": 253.8357
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -117.6475,
+            "RightMargin": -31.3525,
+            "TopMargin": -269.8357,
+            "BottomMargin": 237.8357,
+            "Tag": 84,
+            "ActionTag": 2134566274,
+            "Size": {
+              "X": 149.0,
+              "Y": 32.0
+            },
+            "Name": "num1",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "LabelText": "x999",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "font/sdk_money.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -124.0,
+              "Y": 76.0477
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -124.0,
+            "RightMargin": -25.0,
+            "TopMargin": -92.0477,
+            "BottomMargin": 60.0477,
+            "Tag": 86,
+            "ActionTag": -1676714665,
+            "Size": {
+              "X": 149.0,
+              "Y": 32.0
+            },
+            "Name": "num2",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "LabelText": "x999",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "font/sdk_money.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -124.0,
+              "Y": -102.8798
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -124.0,
+            "RightMargin": -25.0,
+            "TopMargin": 86.8798,
+            "BottomMargin": -118.8798,
+            "Tag": 87,
+            "ActionTag": -110247742,
+            "Size": {
+              "X": 149.0,
+              "Y": 32.0
+            },
+            "Name": "num3",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "LabelText": "x9999",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "font/sdk_money.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -124.0,
+              "Y": -279.708
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -124.0,
+            "RightMargin": -62.0,
+            "TopMargin": 263.708,
+            "BottomMargin": -295.708,
+            "Tag": 88,
+            "ActionTag": -696685363,
+            "Size": {
+              "X": 186.0,
+              "Y": 32.0
+            },
+            "Name": "num4",
+            "ctype": "TextBMFontObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "font/sdk_money.fnt",
+        "font/sdk_money_0.png",
+        "font/sdk_pay_money.fnt",
+        "font/sdk_pay_money_0.png",
+        "pngdata/biglevellayer/biglevellayerplist.plist",
+        "pngdata/biglevellayer/biglevellayerplist.png",
+        "sdk/sdk.plist",
+        "sdk/sdk.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

@@ -1,0 +1,258 @@
+{
+  "ID": "6d9fe36e-f871-4598-bd84-2e4c1663c3e5",
+  "Version": "3.10.0.0",
+  "Name": "pauselayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 19,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gameui/pausebg.png",
+              "Plist": "gameui/gameuiplist.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 640.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.9111,
+              "Y": 0.1898
+            },
+            "LeftMargin": 32.0,
+            "RightMargin": 32.0,
+            "TopMargin": 518.5,
+            "BottomMargin": 518.5,
+            "Tag": 20,
+            "ActionTag": -503992443,
+            "Size": {
+              "X": 656.0,
+              "Y": 243.0
+            },
+            "Name": "pausebg_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gameui/indexbtn.png",
+              "Plist": "gameui/gameuiplist.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 180.0,
+              "Y": 640.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.25,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.1861,
+              "Y": 0.1039
+            },
+            "LeftMargin": 113.0,
+            "RightMargin": 473.0,
+            "TopMargin": 573.5,
+            "BottomMargin": 573.5,
+            "Tag": 21,
+            "ActionTag": -738129657,
+            "Size": {
+              "X": 134.0,
+              "Y": 133.0
+            },
+            "Name": "indexbtn_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gameui/helpbtn.png",
+              "Plist": "gameui/gameuiplist.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 540.0,
+              "Y": 640.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.75,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.1861,
+              "Y": 0.1039
+            },
+            "LeftMargin": 473.0,
+            "RightMargin": 113.0,
+            "TopMargin": 573.5,
+            "BottomMargin": 573.5,
+            "Tag": 22,
+            "ActionTag": 1921366593,
+            "Size": {
+              "X": 134.0,
+              "Y": 133.0
+            },
+            "Name": "helpbtn_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gameui/soundbtn.png",
+              "Plist": "gameui/gameuiplist.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 640.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.1861,
+              "Y": 0.1039
+            },
+            "LeftMargin": 293.0,
+            "RightMargin": 293.0,
+            "TopMargin": 573.5,
+            "BottomMargin": 573.5,
+            "Tag": 23,
+            "ActionTag": -1877244892,
+            "Size": {
+              "X": 134.0,
+              "Y": 133.0
+            },
+            "Name": "soundbtn",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gameui/soundbtn1.png",
+              "Plist": "gameui/gameuiplist.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 640.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.1861,
+              "Y": 0.1039
+            },
+            "LeftMargin": 293.0,
+            "RightMargin": 293.0,
+            "TopMargin": 573.5,
+            "BottomMargin": 573.5,
+            "Tag": 24,
+            "ActionTag": -396631334,
+            "Size": {
+              "X": 134.0,
+              "Y": 133.0
+            },
+            "Name": "soundbtn1",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 720.0,
+          "Y": 1280.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "gameui/gameuiplist.plist",
+        "gameui/gameuiplist.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

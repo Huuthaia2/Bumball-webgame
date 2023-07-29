@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>pngdata/wintip/png1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{884,944},{44,36}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{44,36}</string>
+			</dict>
+			<key>pngdata/wintip/txt1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{888,1},{405,122}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{405,122}</string>
+			</dict>
+			<key>pngdata/wintip/txt2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{621,142}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{621,142}</string>
+			</dict>
+			<key>pngdata/wintip/txt3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{757,1},{527,129}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{527,129}</string>
+			</dict>
+			<key>pngdata/wintip/txt4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{624,1},{564,131}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{564,131}</string>
+			</dict>
+			<key>pngdata/wintip/txt5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{884,530},{412,122}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{412,122}</string>
+			</dict>
+			<key>pngdata/wintip/txt6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{757,530},{418,125}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{418,125}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>wintipplist1.png</string>
+			<key>realTextureFileName</key>
+			<string>wintipplist1.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

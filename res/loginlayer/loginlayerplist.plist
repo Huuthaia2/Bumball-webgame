@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>loginlayer/giftbtn.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{669,160},{125,122}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{125,122}</string>
+			</dict>
+			<key>loginlayer/logo.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{666,251}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{666,251}</string>
+			</dict>
+			<key>loginlayer/soundbtn.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{796,160},{125,122}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{125,122}</string>
+			</dict>
+			<key>loginlayer/startbtn.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{669,1},{353,157}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{353,157}</string>
+			</dict>
+			<key>loginlayer/loginsound1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{923,160},{96,96}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{96,96}</string>
+			</dict>
+			<key>loginlayer/loginsound2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{923,258},{96,96}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{96,96}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>loginlayerplist.png</string>
+			<key>realTextureFileName</key>
+			<string>loginlayerplist.png</string>
+			<key>size</key>
+			<string>{1024,512}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>512</integer>
+		</dict>
+	</dict>
+</plist>

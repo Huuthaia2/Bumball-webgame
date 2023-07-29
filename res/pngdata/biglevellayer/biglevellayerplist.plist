@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>pngdata/biglevellayer/anniubg1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{723,126},{130,131}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{130,131}</string>
+			</dict>
+			<key>pngdata/biglevellayer/anniubg2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{855,126},{130,131}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{130,131}</string>
+			</dict>
+			<key>pngdata/biglevellayer/anniubg3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{723,259},{130,131}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{130,131}</string>
+			</dict>
+			<key>pngdata/biglevellayer/biglevelitembg1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,337},{576,113}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{576,113}</string>
+			</dict>
+			<key>pngdata/biglevellayer/biglevelitembg2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,452},{576,113}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{576,113}</string>
+			</dict>
+			<key>pngdata/biglevellayer/biglevelitemprogressbg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{579,506},{407,15}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{407,15}</string>
+			</dict>
+			<key>pngdata/biglevellayer/levelitemstar1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{696,451},{53,53}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{53,53}</string>
+			</dict>
+			<key>pngdata/biglevellayer/levelitemstar2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{803,453},{49,48}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{49,48}</string>
+			</dict>
+			<key>pngdata/biglevellayer/png12.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{696,392},{75,57}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{75,57}</string>
+			</dict>
+			<key>pngdata/biglevellayer/png13.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{579,337},{115,115}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{115,115}</string>
+			</dict>
+			<key>pngdata/biglevellayer/png3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,174},{720,161}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{720,161}</string>
+			</dict>
+			<key>pngdata/biglevellayer/png4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{855,259},{125,122}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{125,122}</string>
+			</dict>
+			<key>pngdata/biglevellayer/png5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{855,383},{118,117}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{118,117}</string>
+			</dict>
+			<key>pngdata/biglevellayer/png7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{773,392},{59,59}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{59,59}</string>
+			</dict>
+			<key>pngdata/biglevellayer/png8.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{723,1},{266,123}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{266,123}</string>
+			</dict>
+			<key>pngdata/biglevellayer/png9.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{720,171}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{720,171}</string>
+			</dict>
+			<key>pngdata/biglevellayer/levelitemstar3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{751,453},{50,50}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{50,50}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>biglevellayerplist.png</string>
+			<key>realTextureFileName</key>
+			<string>biglevellayerplist.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

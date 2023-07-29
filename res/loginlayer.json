@@ -1,0 +1,166 @@
+{
+  "ID": "3fdfe2f3-f7bd-4073-9513-68cbdfc7bf6b",
+  "Version": "3.10.0.0",
+  "Name": "loginlayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "loginlayer/bg.jpg",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 640.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 2,
+            "ActionTag": 1228781548,
+            "Size": {
+              "X": 720.0,
+              "Y": 1280.0
+            },
+            "Name": "bg_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "loginlayer/logo.png",
+              "Plist": "loginlayer/loginlayerplist.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 358.9999,
+              "Y": 1050.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4986,
+              "Y": 0.8203
+            },
+            "PreSize": {
+              "X": 0.9931,
+              "Y": 0.2555
+            },
+            "LeftMargin": 1.4999,
+            "RightMargin": 3.5001,
+            "TopMargin": 66.5,
+            "BottomMargin": 886.5,
+            "Tag": 27,
+            "ActionTag": 2144572142,
+            "Size": {
+              "X": 715.0,
+              "Y": 327.0
+            },
+            "Name": "logo_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "sdk/code.png",
+              "Plist": "sdk/sdk.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 313.6284
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.245
+            },
+            "PreSize": {
+              "X": 0.3181,
+              "Y": 0.0469
+            },
+            "LeftMargin": 245.5,
+            "RightMargin": 245.5,
+            "TopMargin": 936.3716,
+            "BottomMargin": 283.6284,
+            "Tag": 38,
+            "ActionTag": -1229980034,
+            "Size": {
+              "X": 229.0,
+              "Y": 60.0
+            },
+            "Name": "code",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 720.0,
+          "Y": 1280.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "loginlayer/bg.jpg",
+        "loginlayer/loginlayerplist.plist",
+        "loginlayer/loginlayerplist.png",
+        "sdk/sdk.plist",
+        "sdk/sdk.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

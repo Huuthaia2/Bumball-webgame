@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>animation/ballbg/ballbomeffect/1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{350,350}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{350,350}</string>
+			</dict>
+			<key>animation/ballbg/ballbomeffect/10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,353},{350,350}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{350,350}</string>
+			</dict>
+			<key>animation/ballbg/ballbomeffect/11.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{353,1},{350,350}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{350,350}</string>
+			</dict>
+			<key>animation/ballbg/ballbomeffect/12.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{353,353},{350,350}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{350,350}</string>
+			</dict>
+			<key>animation/ballbg/bumpeffect/1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,705},{300,150}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{300,150}</string>
+			</dict>
+			<key>animation/ballbg/bumpeffect/2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{153,705},{300,150}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{300,150}</string>
+			</dict>
+			<key>animation/ballbg/bumpeffect/3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{305,705},{300,150}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{300,150}</string>
+			</dict>
+			<key>animation/ballbg/bumpeffect/4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{457,705},{300,150}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{300,150}</string>
+			</dict>
+			<key>animation/ballbg/bumpeffect/5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{609,705},{300,150}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{300,150}</string>
+			</dict>
+			<key>animation/ballbg/bumpeffect/6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{705,1},{300,150}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{300,150}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>effectplist1.png</string>
+			<key>realTextureFileName</key>
+			<string>effectplist1.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>
